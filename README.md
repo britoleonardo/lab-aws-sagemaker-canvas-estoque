@@ -20,7 +20,7 @@ O projeto final do bootcamp é utilizar um dataset e utilizar o Sagemakers Canva
 ### 2. SAGEMAKER
 
 -   Para o objetivo do projeto foi selecionado o Predective Analysis como meu Problem type, sendo ele direcionado a predizer o estoque com base no histórico do arquivo CSV.
-    ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Dataset.png)
+    ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/modelo%20de%20previs%C3%A3o.png)
     
     #### Em _Select a column to predict_, selecionei a coluna ESTOQUE, a qual quero uma predição dos dados.
     
