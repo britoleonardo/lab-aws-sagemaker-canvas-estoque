@@ -1,8 +1,10 @@
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
-Desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas". Neste Lab DIO, foi utilizado o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML).
+## 🎯 Bootcamp Nexa - Machine Learning para Iniciantes na AWS - DIO.me)
 
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
+## 📰 RESUMO
+
+O projeto final do bootcamp é utilizar um dataset e utilizar o Sagemakers Canva para  PREVER o estoque inteligente baseando-se em Machine Learning.
 
 ![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
 
