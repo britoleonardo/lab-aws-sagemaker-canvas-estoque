@@ -6,30 +6,43 @@
 
 O projeto final do bootcamp é utilizar um dataset e utilizar o Sagemakers Canva para  PREVER o estoque inteligente baseando-se em Machine Learning.
 
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
+![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Imagem%203.png)
+
+###### Este repositório foi realizado através de um bootcamp oferecido pelo DIO.me, o objetivo alcançado foi a utilização do Sagemakers Canva na AWS para criação de um modelo de estoque intelingente e análise dos Dados Obtidos, este projeto retrata uma forma de validação dos estudos oferecidos pela plataforma. 
 
 ## 🚀 Passo a Passo
 
-### 1. Selecionar Dataset
+### 1. DATASET
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets para treinar e testar o modelo de ML. 
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+-   O Dataset foi gerado através do Chat-GPT, disponibilizado na pasta 'datasets', as instruções dadas foram:
+    ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Dataset.png)
 
-### 2. Construir/Treinar
+### 2. SAGEMAKER
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+-   Para o objetivo do projeto foi selecionado o Predective Analysis como meu Problem type, sendo ele direcionado a predizer o estoque com base no histórico do arquivo CSV.
+    ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Dataset.png)
+    
+    #### Em _Select a column to predict_, selecionei a coluna ESTOQUE, a qual quero uma predição dos dados.
+    
+    ###### Para fins de validação e curácia dos dados utilizei a coluna PRECO, utilizando a forma de predição Standart que leva em média 2hs para maior tempoi de aprendizdo,
+    segui com a análise através da média entre a os valores dos produtos obtidos no dataset.
 
-### 3. Analisar
+    ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Dataset.png)
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+    #### Em Configure Model, foi selecionado a coluna ID_PRODUTOS para identificar os itens da coluna ESTOQUE. Enquanto a coluna DIA será o período em que ocorreu as váriações dos dados.
+    Feito a previsão de até 1 dia, junto com a utilização de Feriados no Brasil.
+    ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Dataset.png)
 
-### 4. Prever
+    #### No Data Visualizer conseguimos analisar os resultados obtidos de forma mais visual.
+    ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Dataset.png)
+    
+### 3. CONCLUSÃO
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+   #### No Data Visualizer conseguimos analisar os resultados obtidos de forma mais visual.
+  ![image](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Dataset.png)
+
+
+### Tecnologias utilizadas
+
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)](https://chat.openai.com/)
+[![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/pt/free/?)
