@@ -26,7 +26,7 @@ O projeto final do bootcamp é utilizar um dataset e utilizar o Sagemakers Canva
     
     ###### Para fins de validação e Estresse da plataforma utilizei dados da coluna PRECO no primeiro upload, utilizando a forma de predição Standart que leva em média 2hs para maior tempo de aprendizdo, poréam na versão 1, a porcentagem de erro era significativa. Então refiz a Análise, retirando a coluna PRECO, segui com a análise através da mediana dos preços e com Quick build.
 
-    ![image]([Imagem 6](https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Imagem%205.png))
+    ![image]((https://github.com/britoleonardo/lab-aws-sagemaker-canvas-estoque/blob/master/Imagem%205.png))
 
     #### Em Configure Model, foi selecionado a coluna ID_PRODUTOS para identificar os itens da coluna ESTOQUE. Enquanto a coluna DIA será o período em que ocorreu as váriações dos dados.
     Feito a previsão de até 4 dias, junto com a utilização de Feriados no Brasil.
